@@ -8,7 +8,7 @@ import os
 def get_ollama_response(prompt):
     url = "http://localhost:11434/api/generate"
     data = {
-        "model": "gemma2:27b",
+        "model": "gemma2",
         "prompt": prompt,
         "stream": False
     }
